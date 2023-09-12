@@ -1,0 +1,94 @@
+:root {
+    --orange: #ffa500;
+}
+/* 
+body{
+    background:#666;
+} */
+
+.heading {
+    text-align: center;
+    padding: 2.5rem 0;
+
+
+}
+
+.heading span {
+    font-size: 2rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+    
+    /* display: inline-block; */
+}
+
+.heading span .space {
+    background: none;
+}
+.box {
+    width: 100%; /* Set the width to 100% of the container */
+    height:auto;
+  }
+  
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates three equal-width columns */
+    gap: 20px;
+    /* Adjust the gap between columns as needed */
+}
+
+
+
+
+.pakages .box-container .box {
+    flex: 15rem 15rem;
+    box-shadow: 0 1rem 2rem rgba(235, 200, 200, 0.1);
+    overflow: hidden;
+
+}
+
+.pakages .box-container .box img {
+    height: 25rem;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+
+
+}
+
+.pakages .box-container .box .content {
+    padding: 2rem;
+    color: #333;
+}
+
+.pakages .box-container .box p {
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.pakages .box-container .box .content .star {
+    font-size: 1.7rem;
+    color: var(--orange);
+}
+
+.pakages .box-container .box .price {
+    font-size: 2rem;
+    color: #333;
+    padding-top: 5rem;
+}
+
+.pakages .box-container .box .content .price span {
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    padding: 10px;
+}
+.but{
+    background-color:var(--orange);
+    padding:1rem;
+}
